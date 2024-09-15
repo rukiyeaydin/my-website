@@ -1,25 +1,18 @@
 <div align="center">
-<a href="https://example.com"><img src="./public/logo.png" width="60px"></a>
-</div>
-
-<div align="center">
-<h1>example.com</h1>
-<p>My personal portfolio website</p>
+<h1>My personal portfolio website</h1>
 </div>
 
 # Tech Stack
 
-- [NextJS][nextjs] - UI framework
-- [Vercel][vercel] - Hosting and Deployment
-- [TailwindCSS][tailwind] / CSS - Styling and UI
-- [Next Themes][nexttheme]: Color Theme
-- [React Refractor][reactrefractor]: Syntax Highlighting
+- NextJs - UI framework
+- Netlify - Hosting and Deployment
+- Tailwind / CSS - Styling and UI
+- Next Themes: Color Theme
+- React Refractor: Syntax Highlighting
 
 ## Project Overview
 
-| [Site][site]          |
-| --------------------- |
-| ![Site][site-preview] |
+ ![image](https://github.com/user-attachments/assets/4ebad3e9-a52b-435e-ad71-f35e97f1d5e6) 
 
 ## Run Project Locally
 
@@ -30,7 +23,7 @@ Follow this guide to get this site runnning locally:
 ```js
 git clone https://github.com/rukiyeaydin/my-website.git
 
-cd example.com
+cd my-website
 
 npm install
 ```
@@ -49,7 +42,6 @@ Simply change variables at "app/data/data.ts", modify for yourself. For the pict
 <!-- Link Refs -->
 
 [nextjs]: https://nextjs.org
-[vercel]: https://vercel.com
 [tailwind]: https://tailwindcss.com
 [nexttheme]: https://github.com/pacocoursey/next-themes
 [reactrefractor]: https://github.com/rexxars/react-refractor
