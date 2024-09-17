@@ -139,41 +139,42 @@ export const projects: ProjectType[] = [
         ],
     },
     {
-        id: "3",
-        name: "E-Commerce",
-        slug: "e-commerce",
-        tagline: "Streamlined shopping experience with a modern React interface.",
-        projectUrl: "",
-        logo: "/images/logos/ecommerce.png",
-        description: `
-        <p>
-            <strong>Startup Showcase</strong> is a React-based web application that delivers a clear and engaging presentation of a startup's core aspects.
-        </p>
-        <br>
-        <p>
-            Key features and achievements of this project include:
-        </p>
-        <br>
-        <ul>
-            <li>Featuring an <em>About</em> section where users can discover the startup’s mission, vision, and team.</li>
+        "id": "3",
+        "name": "E-Commerce",
+        "slug": "e-commerce",
+        "tagline": "Streamlined shopping experience with a modern React interface.",
+        "projectUrl": "",
+        "logo": "/images/logos/ecommerce.png",
+        "description": `
+            <p>
+                <strong>E-Commerce</strong> is a React-based web application designed to deliver a seamless and modern shopping experience. 
+                It utilizes localStorage for managing cart items and provides a responsive design to ensure an optimal experience across all devices.
+            </p>
             <br>
-            <li>Providing a <em>Contact</em> module that enables users to reach out to the startup through integrated forms and messaging.</li>
+            <p>
+                Key features and achievements of this project include:
+            </p>
             <br>
-            <li>Highlighting the startup's <em>Services</em> with straightforward descriptions and visuals to help users understand offerings.</li>
-            <br>
-            <li>Ensuring a responsive and user-friendly design for a consistent experience across all devices and screen sizes.</li>
-        </ul>
-        `,
-        googlePlay: "",
-        appStore: "",
-        webApp: "",
-        github: "https://github.com/rukiyeaydin/e-commerce",
-        screenshots: [
+            <ul>
+                <li>Implementing a robust <em>Shopping Cart</em> that uses localStorage to persist cart items between sessions.</li>
+                <br>
+                <li>Utilizing React for a dynamic and responsive user interface, enhancing the overall shopping experience.</li>
+                <br>
+                <li>Featuring a clean and intuitive <em>Product Display</em> section, showcasing items with detailed descriptions and images.</li>
+                <br>
+                <li>Ensuring a fully responsive design for a consistent and user-friendly experience on all screen sizes.</li>
+            </ul>
+            `,
+        "googlePlay": "",
+        "appStore": "",
+        "webApp": "",
+        "github": "https://github.com/rukiyeaydin/e-commerce",
+        "screenshots": [
             "/images/apps/e-commerce/image1.png",
             "/images/apps/e-commerce/image2.png",
-            "/images/apps/e-commerce/image3.png",
-        ],
-    },
+            "/images/apps/e-commerce/image3.png"
+        ]
+    }
 ];
 
 export const posts: PostType[] = [
